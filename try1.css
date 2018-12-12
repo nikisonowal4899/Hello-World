@@ -1,0 +1,104 @@
+body {
+	background: #999;
+	background-image: url("file:///home/niki/Desktop/Images/winter.jpg");
+	
+}
+h1 {
+	font-size: 80px;
+	color: #000;
+	margin: 0;
+	/*background: rgba(76, 175, 80, 0.3);
+	width: 80%;*/
+}
+h2 {
+	color: #512;
+		background: rgba(76, 175, 80, 0.3);
+		margin: 0;
+		font-size: 25px;
+		/*width: 15% ;*/
+		border-radius: 10px;
+		padding: 10px;
+		text-align: center;
+}
+
+p{
+	margin: 0.5px;
+	border: black;
+	display: inline-block;l
+}
+p.begin {
+		color: #512;
+		background: rgba(76, 175, 80, 0.3);
+		margin: 0;
+		font-size: 25px;
+		width: 15% ;
+		border-radius: 10px;
+		padding: 10px;
+		text-align: center;
+}
+
+.first {
+	background: grey;
+	font-size: 30px;
+	padding: 10px;
+	border: green;
+	width: 30%;
+}
+
+.second {
+	background: rgba(255, 99, 71, 0.5);
+	font-size: 20px;
+	padding: 8px;
+	width: 40%;
+}
+ p.color {
+ 	background: rgb(255, 92, 101);
+ 	font-size: 20px;
+ 	padding: 20px;
+ 	width: 50%;
+ 	font-family: arial;
+ }
+
+ p.img {
+ 	background-image: url("file:///home/niki/Desktop/Images/skype.png");
+ 	font-size: 50px;
+ 	padding: 20px;
+ 	width: 24%;
+ 	height: 160px;
+ 	border-radius: 30px;
+ 	margin: 20px 10px 20px 10px;
+ }
+
+ p.border {
+ 	border: 9px rgb(186, 55, 71);
+ 	border-style: outset;
+ 	font-size: 50px;
+ 	margin: 10px;
+ 	padding: 11px;
+ 	text-align: center;
+ 	width: 30%;
+ 	background: rgba(179, 179, 255,0.6);
+ }
+
+ a {
+ 	text-decoration: none;
+ }
+ /* unvisited link */
+a:link {
+  color: lightblue;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
