@@ -1,5 +1,6 @@
-print("Programme to print first n fibbonacci number")
+print("Programme to print first n fibbonacci number\n")
 n = int(input("Enter the value of n: "))
+print("First",n,"fibonacci number")
 
 def fib(n):
 	if n > 0:
