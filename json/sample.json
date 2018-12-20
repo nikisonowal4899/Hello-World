@@ -1,0 +1,23 @@
+{
+"st1":{
+	"name" : "Niki Sonowal",
+	"address" : {
+		"state" : "Assam",
+		"district" : "Tinsukia",
+		"town" : "Digboi"
+	},
+	"college" : "IIT Guwahati",
+	"dept." : "EEE"
+},
+
+"st2":{
+	"name" : "Kaberi Bhuyan",
+	"address" : {
+		"state" : "Assam",
+		"district" : "Tinsukia",
+		"town" : "Doomdoma"
+	},
+	"college" : "DSHK",
+	"dept" : "Political Science"
+}
+}
