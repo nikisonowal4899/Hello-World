@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Albums page</title>
+    <style>
+        body {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    {% if all_albums %}
+        <h3>Here are all my Albums</h3>
+        <ul>
+            {% for album in all_albums %}
+                <!--/*<li><a href="/music/{{album.id}}">{{album.album_title}}</a></li> "hardcoded"-->
+                <li><a href="{% url 'music:details' album.id %}">{{album.album_title}}</a></li><!--dynamic-->
+            {% endfor %}
+        </ul>
+    {% else %}
+        <h3>You don't have any albums</h3>
+    {% endif %}
+</body>
+</html>
+
