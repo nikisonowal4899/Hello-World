@@ -1,0 +1,64 @@
+body {
+
+}
+
+h1.main_heading {
+    text-align: center;
+    font-family: 'Coiny', cursive;
+    font-size: 50px;
+    /*background-color: #b21f2d;*/
+    padding: 5px;
+
+    opacity: 50%;
+}
+div.heading_container {
+    background-color: #abdde5;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+td.period {
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 25px;
+    word-wrap: break-word;
+}
+
+.timings {
+    font-family: 'Coiny', cursive;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+.days {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    text-align: center;
+}
+
+td.communications {
+    background-color: #b8daff;
+}
+td.hss {
+    background-color: #adb5bd;
+}
+td.probability {
+    background-color: #e83e8c;
+}
+td.measurement {
+    background-color: darkorange;
+}
+td.analog {
+    background-color: aquamarine;
+}
+td.lab {
+    background-color: honeydew;
+}
+td.no_class {
+    background-color: aliceblue;
+}
+
+p.type { /*Lec or Tut, show in small fonts*/
+    font-size: 20px;
+}
