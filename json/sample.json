@@ -1,23 +1,23 @@
 {
 "st1":{
-	"name" : "Niki Sonowal",
+	"name" : "dfc",
 	"address" : {
-		"state" : "Assam",
-		"district" : "Tinsukia",
-		"town" : "Digboi"
+		"state" : "Acfv",
+		"district" : "asx",
+		"town" : "wsd"
 	},
-	"college" : "IIT Guwahati",
-	"dept." : "EEE"
+	"college" : "dcti",
+	"dept." : "sw"
 },
 
 "st2":{
-	"name" : "Kaberi Bhuyan",
+	"name" : "Alex Hop",
 	"address" : {
-		"state" : "Assam",
-		"district" : "Tinsukia",
-		"town" : "Doomdoma"
+		"state" : "Goa",
+		"district" : "central",
+		"town" : "xyd"
 	},
-	"college" : "DSHK",
-	"dept" : "Political Science"
+	"college" : "cdss",
+	"dept" : "cx qas"
 }
 }
